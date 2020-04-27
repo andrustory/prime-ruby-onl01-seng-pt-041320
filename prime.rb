@@ -1,7 +1,5 @@
-def prime?(argument)
-  if x/1 == x || 1
-    puts true
-  else
-    puts false
-  end
-end
+def prime?(num)
+  return false if num <= 1
+  Math.sqrt(num).to_i.downto(2).each {|i| return false if num % i == 0}
+  true
+end 
