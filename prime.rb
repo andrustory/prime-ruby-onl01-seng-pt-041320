@@ -1,13 +1,7 @@
-def prime?(n)
-  if n <= 1
-    return false
+def prime?(argument)
+  if x/1 == x || 1
+    puts true
+  else
+    puts false
   end
-  i = 2
-  while i < n
-    if n % i == 0
-      return false
-    end
-    i+=1
-  end
-  true
 end
